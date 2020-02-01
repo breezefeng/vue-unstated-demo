@@ -1,24 +1,4 @@
-# vue3-demo
+# vue-unstated-demo
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 注意点
+vue-unstated 返回的state必须是对象类型，如果是number，string等单值类型就检测不到值的改变
